@@ -44,6 +44,8 @@ public class ZKServiceTest {
 		zkService.connectToZK(ci);
 		tmpSubZNode = String.format("testsubnode-%d", System.currentTimeMillis());
 		timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());
+
+		System.out.println("ZKServiceTest initialized at " + timeStamp);
 	}
 
 	@Test

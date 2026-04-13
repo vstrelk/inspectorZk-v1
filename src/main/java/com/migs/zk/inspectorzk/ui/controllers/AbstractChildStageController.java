@@ -1,12 +1,12 @@
 package com.migs.zk.inspectorzk.ui.controllers;
 
-import com.sun.javafx.tk.Toolkit;
-import javafx.beans.binding.BooleanBinding;
-import javafx.beans.property.SimpleBooleanProperty;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
-import javafx.fxml.FXML;
-import javafx.scene.Node;
+//import com.sun.javafx.tk.Toolkit;
+//import javafx.beans.binding.BooleanBinding;
+//import javafx.beans.property.SimpleBooleanProperty;
+//import javafx.beans.value.ChangeListener;
+//import javafx.beans.value.ObservableValue;
+//import javafx.fxml.FXML;
+//import javafx.scene.Node;
 import javafx.scene.Scene;
 import javafx.scene.input.KeyCode;
 import javafx.scene.input.KeyCodeCombination;
@@ -37,6 +37,7 @@ public abstract class AbstractChildStageController {
 		getControllerStage().initModality(Modality.APPLICATION_MODAL);
 	}
 
+	@SuppressWarnings("unused")
 	private void setupCloseStageShortcuts(){
 		//cMD || CTL + W depending on platform
 		getControllerScene().getAccelerators().put(

@@ -1,10 +1,10 @@
 package com.migs.zk.inspectorzk.ui.util;
 
-import javafx.beans.binding.Bindings;
-import javafx.beans.binding.NumberBinding;
+//import javafx.beans.binding.Bindings;
+//import javafx.beans.binding.NumberBinding;
 import javafx.beans.property.SimpleBooleanProperty;
 import javafx.beans.property.SimpleIntegerProperty;
-import javafx.collections.FXCollections;
+//import javafx.collections.FXCollections;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

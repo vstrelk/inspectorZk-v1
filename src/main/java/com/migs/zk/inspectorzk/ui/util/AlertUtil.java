@@ -1,7 +1,7 @@
 package com.migs.zk.inspectorzk.ui.util;
 
-import com.migs.zk.inspectorzk.domain.Session;
-import com.migs.zk.inspectorzk.domain.ZKConnInfo;
+//import com.migs.zk.inspectorzk.domain.Session;
+//import com.migs.zk.inspectorzk.domain.ZKConnInfo;
 import javafx.scene.control.Alert;
 import javafx.scene.control.ButtonBar;
 import javafx.scene.control.ButtonType;
